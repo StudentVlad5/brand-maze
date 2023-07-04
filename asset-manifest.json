@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/brand-maze/static/css/main.b419e7d6.css",
+    "main.js": "/brand-maze/static/js/main.54dfc0eb.js",
+    "index.html": "/brand-maze/index.html",
+    "main.b419e7d6.css.map": "/brand-maze/static/css/main.b419e7d6.css.map",
+    "main.54dfc0eb.js.map": "/brand-maze/static/js/main.54dfc0eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b419e7d6.css",
+    "static/js/main.54dfc0eb.js"
+  ]
+}
