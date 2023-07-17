@@ -40,7 +40,7 @@ import heorhiiColor from '../../../images/about/team/heorhii.webp';
 import julia from '../../../images/about/team/julia_blackAndWhite.webp';
 import juliaColor from '../../../images/about/team/julia.webp';
 import vlad from '../../../images/about/team/vlad_blackAndWhite.webp';
-import vladColor from '../../../images/about/team/vlad.webp';
+import vladColor from '../../../images/about/team/vlad_warm_color.webp';
 
 import sprite from '../../../images/sprite.svg';
 import { useEffect } from 'react';
