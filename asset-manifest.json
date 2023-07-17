@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/brand-maze/static/css/main.095281ad.css",
-    "main.js": "/brand-maze/static/js/main.b283650c.js",
+    "main.js": "/brand-maze/static/js/main.be1cd4d7.js",
     "static/media/heorhii_blackAndWhite.webp": "/brand-maze/static/media/heorhii_blackAndWhite.00fd070ca62edfc84da0.webp",
     "static/media/filmoteka_project.webp": "/brand-maze/static/media/filmoteka_project.2bec8113289975675b3b.webp",
     "static/media/julia_blackAndWhite.webp": "/brand-maze/static/media/julia_blackAndWhite.f551a84a1563edaeb2e0.webp",
     "static/media/julia.webp": "/brand-maze/static/media/julia.777e0259a2841496e308.webp",
     "static/media/heorhii.webp": "/brand-maze/static/media/heorhii.64eebcfbd38b2901e0e9.webp",
     "static/media/animal_welfare_project.webp": "/brand-maze/static/media/animal_welfare_project.180cb798d0af78c06a5a.webp",
-    "static/media/vlad_blackAndWhite.webp": "/brand-maze/static/media/vlad_blackAndWhite.df93e404669cea02601f.webp",
-    "static/media/vlad.webp": "/brand-maze/static/media/vlad.6c0cd96b1048b8b2c1ec.webp",
     "static/media/barber_project.webp": "/brand-maze/static/media/barber_project.73b8ab5cddc4fa96fbd8.webp",
     "static/media/brandBuild.webp": "/brand-maze/static/media/brandBuild.72b1a9e661c36dff8dfa.webp",
     "static/media/ice_cream_project.webp": "/brand-maze/static/media/ice_cream_project.f4cc36397ad12a3bb988.webp",
+    "static/media/vlad_warm_color.webp": "/brand-maze/static/media/vlad_warm_color.268aa7ed8c294fbc1a5c.webp",
+    "static/media/vlad_blackAndWhite.webp": "/brand-maze/static/media/vlad_blackAndWhite.dbb2c583713241cb38bc.webp",
     "static/media/logo2.svg": "/brand-maze/static/media/logo2.1491924fb6d5ef47be444ed89ae821d9.svg",
     "static/media/sprite.svg": "/brand-maze/static/media/sprite.0367c5dc17fd329c94021438004f9b66.svg",
     "static/media/mdi_light_flask.svg": "/brand-maze/static/media/mdi_light_flask.7609e70b400637f20ff905513016d470.svg",
@@ -21,10 +21,10 @@
     "static/media/mdi_light_chart-pie.svg": "/brand-maze/static/media/mdi_light_chart-pie.8ab8da0cea2054c17744fd4120678ed3.svg",
     "static/media/mdi_light_chart-bar.svg": "/brand-maze/static/media/mdi_light_chart-bar.4b99fcbf4f0881024811e2bd5961c271.svg",
     "main.095281ad.css.map": "/brand-maze/static/css/main.095281ad.css.map",
-    "main.b283650c.js.map": "/brand-maze/static/js/main.b283650c.js.map"
+    "main.be1cd4d7.js.map": "/brand-maze/static/js/main.be1cd4d7.js.map"
   },
   "entrypoints": [
     "static/css/main.095281ad.css",
-    "static/js/main.b283650c.js"
+    "static/js/main.be1cd4d7.js"
   ]
 }
