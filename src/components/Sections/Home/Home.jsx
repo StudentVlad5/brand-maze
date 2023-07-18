@@ -27,6 +27,8 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useTranslation } from 'react-i18next';
+import ReactPlayer from 'react-player';
+import video from '../../../images/video/IMG_4775.MOV'
 
 export const Home = () => {
   Aos.init();
@@ -43,7 +45,9 @@ export const Home = () => {
   return (
     <Container>
       <TitleHome>{t('BUILDING BETTER BRANDS')}</TitleHome>
-
+      <div style={{display:"flex", justifyContent:"center", alignItems:"center", margin:"20px 0"}}>
+        <ReactPlayer url={video} playing={true} loop={true} controls  width="500px" height="300px"/>
+      </div>
       <ListBox>
         <List>
           <ListItem>
