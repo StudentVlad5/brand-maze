@@ -49,16 +49,16 @@ const trackingInExpandFwdAnimation = keyframes`
 `;
 
 export const WrapperText = styled.div`
-  margin-bottom: 55px;
+  /* margin-bottom: 55px; */
   margin-left: auto;
   margin-right: auto;
 
-  @media screen and (min-width: 768px) {
+  /* @media screen and (min-width: 768px) {
     margin-bottom: 60px;
-  }
+  } */
 
   @media screen and (min-width: 1280px) {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     max-width: 1200px;
   }
 `;
@@ -243,6 +243,7 @@ export const TextSlider = styled(Text)`
 `;
 
 export const TableHeading = styled.th`
+  display: flex;
   color: ${props => props.theme.black};
   text-align: center;
   font-size: 20px;
@@ -389,5 +390,52 @@ export const ListQuestions = styled.ul`
 
   @media screen and (min-width: 768px) {
     gap: 40px;
+  }
+`;
+
+export const DetailsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 80%;
+  margin-bottom: 20px;
+`;
+
+export const DetailsButton = styled.button`
+  padding: 0;
+
+  color: ${props => props.theme.accentRed};
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: start;
+
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+`;
+
+export const DetailsList = styled.ul`
+  width: 100%;
+`;
+
+export const DetailsItem = styled.li`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  color: ${props => props.theme.text};
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: start;
+
+  & > svg {
+    fill: ${props => props.theme.accentRed};
   }
 `;

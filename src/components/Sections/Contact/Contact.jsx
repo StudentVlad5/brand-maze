@@ -38,15 +38,6 @@ export const Contact = () => {
   }, []);
 
   const handleSubmit = () => {
-    // setUserFirstName('');
-    // setUserLastName('');
-    // setUserEmail('');
-    // setUserPhone('');
-    // setUserMessage('');
-    // setFile('');
-    // document.querySelectorAll('.file-return')[0].innerHTML =
-    //   '(Allowed file formats - pdf doc docx odt ods. Maximum file size - 5 mb)';
-
     setFormSubmitted(true);
   };
 
@@ -77,7 +68,7 @@ export const Contact = () => {
     <Container>
       <Title>{t('Contact')}</Title>
       <ContactForm
-        action="https://formsubmit.co/drivezone36@gmail.com"
+        action="https://formsubmit.co/contact@brand-maze.com"
         method="POST"
         enctype="multipart/form-data"
         className="contact-form"

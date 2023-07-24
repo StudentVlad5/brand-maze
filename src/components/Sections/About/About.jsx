@@ -67,7 +67,7 @@ export const About = () => {
         <ContainerForAboutItem>
           <p>
             {t(
-              'Our approach to marketing is a holistic approach that includes strategic planning, creative design, effective marketing campaigns and an emphasis on building lasting relationships with clients. We work tirelessly to ensure the success and growth of our clients.'
+              'Our approach to project delivery is a holistic approach that includes strategic planning, creative design, rapid website development and an emphasis on building lasting relationships with clients. We work tirelessly to ensure the success and growth of our clients.'
             )}
           </p>
           <p>
@@ -96,21 +96,21 @@ export const About = () => {
           loopedSlides={1}
         >
           <SwiperSlide>
-            <p style={{ width: '70%' }}>
+            <p style={{ width: '80%', marginBottom: '20px' }}>
               {t(
-                'Our approach to marketing is a holistic approach that includes strategic planning, creative design, effective marketing campaigns and an emphasis on building lasting relationships with clients. We work tirelessly to ensure the success and growth of our clients.'
+                'Our approach to project delivery is a holistic approach that includes strategic planning, creative design, rapid website development and an emphasis on building lasting relationships with clients. We work tirelessly to ensure the success and growth of our clients.'
               )}
             </p>
           </SwiperSlide>
           <SwiperSlide>
-            <p style={{ width: '70%' }}>
+            <p style={{ width: '80%', marginBottom: '20px' }}>
               {t(
                 'At Brand Maze, we pride ourselves on our ability to create exceptional brands that capture attention, demonstrate quality and leave a lasting impression. Our team of talented professionals work together, combining strategy, creativity and technology to achieve the best results for our clients.'
               )}
             </p>
           </SwiperSlide>
           <SwiperSlide>
-            <p style={{ width: '70%' }}>
+            <p style={{ width: '80%', marginBottom: '20px' }}>
               {t(
                 'Join us at Brand Maze and let us be your trusted partner in developing your brand. Together we can create the magic that will make your brand stand out and attract more success.'
               )}

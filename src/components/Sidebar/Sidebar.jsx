@@ -78,8 +78,8 @@ export const Sidebar = () => {
             </ContactListItemPhone>
 
             <ContactListItem>
-              <ContactListLink href="mailto:contact@brandmaze.com">
-                contact@brandmaze.com
+              <ContactListLink href="mailto:contact@brand-maze.com">
+                contact@brand-maze.com
               </ContactListLink>
             </ContactListItem>
           </ul>
@@ -118,7 +118,7 @@ export const Sidebar = () => {
             </SocialsListItem>
             <SocialsListItem>
               <a
-                href="https://www.linkedin.com/in/brand-maze-935584283"
+                href="https://www.linkedin.com/company/brand-maze/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -16,7 +16,7 @@ import {
   ListItemImg,
 } from './Home.styled';
 import logo2 from '../../../images/home/logo2.svg';
-import brandBuild from '../../../images/home/brandBuild.webp';
+// import brandBuild from '../../../images/home/brandBuild.webp';
 import { Container } from 'components/baseStyles/CommonStyle.styled';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/navigation';
@@ -27,8 +27,7 @@ import { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useTranslation } from 'react-i18next';
-import ReactPlayer from 'react-player';
-import video from '../../../images/video/IMG_4775.MOV'
+import ph from '../../../images/home/ph.png';
 
 export const Home = () => {
   Aos.init();
@@ -45,17 +44,14 @@ export const Home = () => {
   return (
     <Container>
       <TitleHome>{t('BUILDING BETTER BRANDS')}</TitleHome>
-      <div style={{display:"flex", justifyContent:"center", alignItems:"center", margin:"20px 0"}}>
-        <ReactPlayer url={video} playing={true} loop={true} controls  width="500px" height="300px"/>
-      </div>
       <ListBox>
         <List>
           <ListItem>
-            <ListItemImg src={brandBuild} alt="" />
+            <ListItemImg src={ph} alt="" />
 
             <ListItemText>
               {t(
-                'We work tirelessly to develop long-term relationships with our partners, just as you strive to create strong bonds with the customers who purchase your products or use your services.'
+                'We work tirelessly to develop long-term relationships with our partners, just as you strive to create strong bonds with the customers who purchase your products or use your services'
               )}
             </ListItemText>
           </ListItem>
@@ -63,9 +59,9 @@ export const Home = () => {
           <ListItem>
             <ListItemText>
               {t(
-                'We are creators of exceptional brands. This is the embodiment of our business. Under one virtual roof, we do incredible things to achieve this goal:'
+                'We help create of exceptional brands. This is the embodiment of our business. Under one virtual roof, we do incredible things to achieve this goal:'
               )}
-              <span> {t('we build better brands.')} </span>
+              <span> {t('building better brands')} </span>
             </ListItemText>
 
             <SwiperSvg width="240" height="240">
@@ -89,18 +85,6 @@ export const Home = () => {
           loopedSlides={1}
         >
           <SwiperSlide>
-            <ListItemImg src={brandBuild} alt="" />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <ListItemTextSwiper>
-              {t(
-                'We work tirelessly to develop long-term relationships with our partners, just as you strive to create strong bonds with the customers who purchase your products or use your services.'
-              )}
-            </ListItemTextSwiper>
-          </SwiperSlide>
-
-          <SwiperSlide>
             <SwiperSvg width="240" height="240">
               <use href={logo2 + '#logo2'}></use>
             </SwiperSvg>
@@ -109,9 +93,21 @@ export const Home = () => {
           <SwiperSlide>
             <ListItemTextSwiper>
               {t(
-                'We are creators of exceptional brands. This is the embodiment of our business. Under one virtual roof, we do incredible things to achieve this goal:'
+                'We work tirelessly to develop long-term relationships with our partners, just as you strive to create strong bonds with the customers who purchase your products or use your services'
               )}
-              <span> {t('we build better brands.')} </span>
+            </ListItemTextSwiper>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <ListItemImg src={ph} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <ListItemTextSwiper>
+              {t(
+                'We help create of exceptional brands. This is the embodiment of our business. Under one virtual roof, we do incredible things to achieve this goal:'
+              )}
+              <span> {t('building better brands')} </span>
             </ListItemTextSwiper>
           </SwiperSlide>
         </Swiper>
@@ -120,7 +116,7 @@ export const Home = () => {
       <ConclusionText>
         <span>{t('At')} Brand Maze </span> -{' '}
         {t(
-          'we carefully implement a well-designed process that helps us achieve excellence in everything we do.'
+          'we carefully implement a well-designed process that helps us achieve excellence in everything we do'
         )}
       </ConclusionText>
 

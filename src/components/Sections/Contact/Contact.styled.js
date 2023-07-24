@@ -79,7 +79,7 @@ const LabelOfItem = styled.label`
   margin-bottom: 30px;
 
   font-weight: 600;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -155,7 +155,7 @@ const NameOfItem = styled.span`
   left: 2px;
 
   font-weight: 500;
-  font-size: 11px;
+  font-size: 14px;
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;

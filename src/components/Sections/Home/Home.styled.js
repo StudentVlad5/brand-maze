@@ -46,6 +46,17 @@ const fadeInRightAnimation = keyframes`
   }
 `;
 
+const fadeInBottomAnimation = keyframes`
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+`;
+
 export const List = styled.ul`
   display: flex;
   flex-direction: row;
@@ -158,6 +169,7 @@ export const ListItemTextSwiper = styled.p`
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
+  width: 80%;
   color: ${props => props.theme.blackOpacity};
   font-size: 15px;
   font-family: 'Inter', sans-serif;
@@ -195,6 +207,7 @@ export const ConclusionText = styled.p`
   font-weight: 500;
   line-height: 150%;
   margin-bottom: 55px;
+  animation: ${fadeInBottomAnimation} 0.6s cubic-bezier(0.39, 0.575, 0.565, 1);
 
   @media screen and (min-width: 768px) {
     font-size: 35px;
@@ -266,7 +279,7 @@ export const ItemTitle = styled.h3`
 `;
 
 export const ItemDiscr = styled(Text)`
-  color: ${props => props.theme.black};
+  color: ${props => props.theme.text};
   width: 319px;
   text-align: left;
 

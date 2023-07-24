@@ -19,6 +19,7 @@ export const GlobalStyle = createGlobalStyle`
   
   main {
     width: 100%;
+    min-height: calc(100vh - 50px);
   }
 
 //-----reset-----//
@@ -225,5 +226,33 @@ img {
   @media screen and (max-width: 768px) {
     justify-content: center;
   };
+}
+#popup-root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 45;
+
+  width: 100vw;
+  height: 100vh;
+
+  opacity: 1;
+  visibility: visible;
+  display: flex;
+
+  background-color: #0000006b;
+  transition: opacity .3s linear 50ms, visibility .3s linear 50ms;
+}
+
+#popup-root {
+  &.is-hide {
+      pointer-events: none;
+      opacity: 0;
+      visibility: hidden;
+      display: none;
+
+      width: 0;
+      height: 0;
+  }
 }
 `;

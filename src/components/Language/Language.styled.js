@@ -20,6 +20,7 @@ export const SelectContainerLanguage = styled.div`
   position: fixed;
   top: 20px;
   right: 90px;
+  z-index: 15;
   height: auto;
 
   background-color: transparent;

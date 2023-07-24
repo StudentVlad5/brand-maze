@@ -1,4 +1,5 @@
-import { keyframes, styled } from "styled-components";
+import { keyframes, styled } from 'styled-components';
+import { MdPlayCircleOutline } from 'react-icons/md';
 
 const fadeInTopAnimation = keyframes`
   0% {
@@ -61,7 +62,7 @@ export const Logo = styled.p`
 
   cursor: pointer;
   text-decoration: none;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 20px;
 
   @media screen and (min-width: 1280px) {
@@ -75,6 +76,7 @@ export const Logo = styled.p`
 
 export const LogoBox = styled.a`
   text-decoration: none;
+  cursor: pointer;
 `;
 
 export const HeaderSvg = styled.svg`
@@ -87,5 +89,26 @@ export const HeaderSvg = styled.svg`
 
   @media screen and (min-width: 1280px) {
     display: none;
+  }
+`;
+export const MovieIcon = styled(MdPlayCircleOutline)`
+  position: fixed;
+  left: 170px;
+  top: 22px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    left: 180px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  @media screen and (min-width: 1280px) {
+    left: 300px;
+    top: 25px;
+    width: 40px;
+    height: 40px;
   }
 `;
