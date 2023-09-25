@@ -9,7 +9,7 @@ export const SwitchTheme = () => {
     <ThemeContext.Consumer>
       {({ theme, setMode }) => (
         <SwitcherWrapper>
-          <BtnChangeTheme
+          <BtnChangeTheme aria-label="Change theme" aria-expanded="true"
             onClick={e =>
               theme === 'light' ? setMode('dark') : setMode('light')
             }
@@ -19,7 +19,7 @@ export const SwitchTheme = () => {
             ) : (
               <FaRegMoon size={20} alt="dark theme" />
             )}
-          </BtnChangeTheme>
+          </BtnChangeTheme >
         </SwitcherWrapper>
       )}
     </ThemeContext.Consumer>
