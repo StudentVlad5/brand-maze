@@ -2,7 +2,7 @@
   "name": "brand-maze",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://brand-maze.vercel.app/",
+  "homepage": "https://studentvlad5.github.io/brand-maze/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
