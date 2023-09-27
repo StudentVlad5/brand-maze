@@ -1,5 +1,5 @@
-import { styled } from 'styled-components';
-import { NavListLink } from '../Sidebar.styled';
+import { styled } from "styled-components";
+import { NavListLink } from "../Sidebar.styled";
 
 export const MobileMenuBox = styled.div`
   position: fixed;
@@ -12,7 +12,7 @@ export const MobileMenuBox = styled.div`
   transition: transform 250ms ease-in-out;
   display: flex;
   flex-direction: column;
-  background-color: ${props => props.theme.white};
+  background-color: ${(props) => props.theme.white};
 
   &.is-expanded {
     transform: translateX(0);
@@ -49,7 +49,6 @@ export const NavListMobileItem = styled(NavListLink)`
 
 export const ContactListMobile = styled.ul`
   display: block;
-  position: fixed;
   bottom: 30px;
 
   padding: 0;
