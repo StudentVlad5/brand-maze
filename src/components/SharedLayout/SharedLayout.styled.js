@@ -12,9 +12,3 @@ export const Box = styled.div`
     max-width: 1280px;
   }
 `;
-export const Div = styled.div`
-  width: 100%;
-  @media screen and (min-width: 768px) {
-    width: auto;
-  }
-`;

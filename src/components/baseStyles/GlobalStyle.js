@@ -248,13 +248,14 @@ img {
 }
 
 #root {
-   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  @media screen and (min-width: 768px) {
+    width: auto;
+  }
 }
 
 #popup-root {
+  z-index: 999;
   &.is-hide {
       pointer-events: none;
       opacity: 0;

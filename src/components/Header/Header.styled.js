@@ -41,7 +41,7 @@ export const Header = styled.header`
     height: 45px;
     opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
     transition: opacity 0.3s, transform 0.3s;
-    z-index: 999;
+    z-index: 500;
   }
   @media screen and (min-width: 768px) {
     max-width: 768px;
@@ -83,6 +83,7 @@ export const Logo = styled.p`
 export const LogoBox = styled.a`
   text-decoration: none;
   cursor: pointer;
+  z-index: 999;
 `;
 
 export const HeaderSvg = styled.svg`
@@ -104,6 +105,7 @@ export const MovieIcon = styled(MdPlayCircleOutline)`
   width: 25px;
   height: 25px;
   cursor: pointer;
+  z-index: 500;
 
   @media screen and (min-width: 768px) {
     left: 180px;
