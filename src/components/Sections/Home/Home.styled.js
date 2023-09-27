@@ -1,6 +1,6 @@
-import { keyframes, styled } from 'styled-components';
-import { Number, Text } from '../Services/Services.styled';
-import { Title } from 'components/baseStyles/CommonStyle.styled';
+import { keyframes, styled } from "styled-components";
+import { Number, Text } from "../Services/Services.styled";
+import { Title } from "components/baseStyles/CommonStyle.styled";
 
 const flipInVerLeftAnimation = keyframes`
   0% {
@@ -91,7 +91,7 @@ export const ListBoxSwaper = styled.div`
 `;
 
 export const SwiperSvg = styled.svg`
-  fill: ${props => props.theme.black};
+  fill: ${(props) => props.theme.black};
   &:nth-child(1) {
     animation: ${flipInVerRightAnimation} 0.9s
       cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -125,10 +125,11 @@ export const ListItemImg = styled.img`
 export const ListItemText = styled.p`
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
   /* width: 369px; */
-  color: ${props => props.theme.blackOpacity};
+  color: ${(props) => props.theme.blackOpacity};
   font-size: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -170,9 +171,9 @@ export const ListItemTextSwiper = styled.p`
   justify-content: center;
   text-align: center;
   width: 80%;
-  color: ${props => props.theme.blackOpacity};
+  color: ${(props) => props.theme.blackOpacity};
   font-size: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -200,9 +201,9 @@ export const ConclusionText = styled.p`
   flex-wrap: wrap;
   margin-top: 35px;
   text-align: center;
-  color: ${props => props.theme.blackOpacity};
+  color: ${(props) => props.theme.blackOpacity};
   font-size: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
   line-height: 150%;
@@ -239,6 +240,7 @@ export const CompList = styled.ul`
 `;
 
 export const CompListItem = styled.li`
+  width: 100%;
   &:not(:last-child) {
     margin-bottom: 45px;
   }
@@ -252,7 +254,7 @@ export const CompListItem = styled.li`
 
 export const ItemNumber = styled(Number)`
   font-size: 30px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   letter-spacing: 0;
   @media screen and (min-width: 768px) {
     font-size: 80px;
@@ -261,9 +263,9 @@ export const ItemNumber = styled(Number)`
 
 export const ItemTitle = styled.h3`
   margin-bottom: 15px;
-  color: ${props => props.theme.black};
+  color: ${(props) => props.theme.black};
   font-size: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -279,8 +281,8 @@ export const ItemTitle = styled.h3`
 `;
 
 export const ItemDiscr = styled(Text)`
-  color: ${props => props.theme.text};
-  width: 319px;
+  color: ${(props) => props.theme.text};
+  width: 100%;
   text-align: left;
 
   @media screen and (min-width: 768px) {

@@ -1,5 +1,5 @@
-import { keyframes, styled } from 'styled-components';
-import { MdPlayCircleOutline } from 'react-icons/md';
+import { keyframes, styled } from "styled-components";
+import { MdPlayCircleOutline } from "react-icons/md";
 
 const fadeInTopAnimation = keyframes`
   0% {
@@ -26,29 +26,35 @@ export const Header = styled.header`
   z-index: 999;
 
   @media screen and (max-width: 1280px) {
-    color: ${props => props.theme.black};
-    background-color: ${props => props.theme.white};
+    color: ${(props) => props.theme.black};
+    background-color: ${(props) => props.theme.white};
   }
    */
-  color: ${props => props.theme.black};
-  background-color: ${props => props.theme.white};
+  color: ${(props) => props.theme.black};
+  background-color: ${(props) => props.theme.white};
+  position: fixed;
+  display: flex;
+  width: 100%;
 
   @media screen and (max-width: 1279.9px) {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 45px;
     opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
     transition: opacity 0.3s, transform 0.3s;
     z-index: 999;
   }
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+  }
 `;
 
 export const Logo = styled.p`
-  color: ${props => props.theme.black};
-  font-family: 'Roboto', sans-serif;
+  color: ${(props) => props.theme.black};
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
   line-height: normal;
@@ -92,7 +98,7 @@ export const HeaderSvg = styled.svg`
   }
 `;
 export const MovieIcon = styled(MdPlayCircleOutline)`
-  position: fixed;
+  position: absolute;
   left: 170px;
   top: 22px;
   width: 25px;

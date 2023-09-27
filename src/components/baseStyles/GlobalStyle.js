@@ -4,6 +4,9 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
   body {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Roboto', 'Poppins',
     'Manrope', 'Oswald', 'Montserrat', 'Bungee', 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -242,6 +245,13 @@ img {
 
   background-color: #0000006b;
   transition: opacity .3s linear 50ms, visibility .3s linear 50ms;
+}
+
+#root {
+   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #popup-root {

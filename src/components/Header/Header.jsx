@@ -40,9 +40,10 @@ export const HeaderComp = () => {
         <Logo>Brand maze</Logo>
       </LogoBox>
       <MovieIcon onClick={openModalWindow}/>
-
+      <div style={{display:'flex',justifyContent:'end', position:'relative',width:'100%'}}>
       <Language />
       <SwitchTheme />
+      </div>
       <HeaderSvg width="24" height="24" onClick={toggleMenu}>
         <use href={menu + '#menu'}></use>
       </HeaderSvg>
