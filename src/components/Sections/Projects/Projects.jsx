@@ -5,6 +5,8 @@ import Barber_img from 'images/projects/barber_project.webp';
 import Animal_welfare_img from 'images/projects/animal_welfare_project.webp';
 import Filmoteka_img from 'images/projects/filmoteka_project.webp';
 import Ice_cream_img from 'images/projects/ice_cream_project.webp';
+import Anastasia_img from 'images/projects/anastasya-studio.webp';
+import Salamandra_img from 'images/projects/salamandra.webp';
 import { Container } from 'components/baseStyles/CommonStyle.styled';
 // import { Button } from 'components/baseStyles/Button.styled';
 import { useEffect } from 'react';
@@ -28,7 +30,7 @@ export const Project = () => {
     switch (e.target.alt) {
       case 'barbershop project':
         window
-          .open('https://studentvlad5.github.io/barbershop/', '_blank')
+          .open('https://barbershop-kyiv.vercel.app/', '_blank')
           .focus();
         break;
       case 'animal welfare project':
@@ -47,7 +49,23 @@ export const Project = () => {
       case 'filmoteka project':
         window
           .open(
-            'https://studentvlad5.github.io/filmoteka-js-project/',
+            'https://filmoteka-home.netlify.app/',
+            '_blank'
+          )
+          .focus();
+        break;
+      case 'Anastasia project':
+        window
+          .open(
+            'https://web-studio-yvh6.onrender.com/',
+            '_blank'
+          )
+          .focus();
+        break;
+      case 'salamandra project':
+        window
+          .open(
+            'https://salamandra-cafe.vercel.app/',
             '_blank'
           )
           .focus();
@@ -90,6 +108,20 @@ export const Project = () => {
       originalAlt: 'ice cream project',
       description: t('A project for ordering delicious and cold ice cream'),
       title: 'A project for ordering delicious and cold ice cream',
+    },
+    {
+      original: Anastasia_img,
+      thumbnail: Anastasia_img,
+      originalAlt: 'Anastasia project',
+      description: t('The site is a business card for the design team'),
+      title: 'The site is a business card for the design team',
+    },
+    {
+      original: Salamandra_img,
+      thumbnail: Salamandra_img,
+      originalAlt: 'salamandra project',
+      description: t('Сafe menu with administrative management'),
+      title: 'Сafe menu with administrative management',
     },
   ];
 
