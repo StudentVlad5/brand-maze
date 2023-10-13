@@ -13,25 +13,8 @@ const fadeInTopAnimation = keyframes`
 `;
 
 export const Header = styled.header`
-  /* Якщо зробити так то хедер завжди буде зникати
-   а при скролі зявлятись і на мобілці і на десктопі 
-   display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 45px;
-  opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
-  transition: opacity 0.3s, transform 0.3s;
-  z-index: 999;
-
-  @media screen and (max-width: 1280px) {
-    color: ${(props) => props.theme.black};
-    background-color: ${(props) => props.theme.white};
-  }
-   */
   color: ${(props) => props.theme.black};
-  background-color: ${(props) => props.theme.white};
+  background-color: transparent;
   position: fixed;
   display: flex;
   width: 100%;
@@ -39,7 +22,7 @@ export const Header = styled.header`
   @media screen and (max-width: 1279.9px) {
     width: 100%;
     height: 45px;
-    opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
+    opacity: ${({ isvisible }) => (isvisible === 'true' ? 1 : 0)};
     transition: opacity 0.3s, transform 0.3s;
     z-index: 500;
   }

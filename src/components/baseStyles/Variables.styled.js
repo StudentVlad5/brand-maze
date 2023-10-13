@@ -16,7 +16,7 @@ export const theme = {
   },
 
   dark: {
-    white: '#323543',
+    white: '#000000',
     black: '#FFFFFF',
     blackOpacity: 'rgba(255, 255, 255, 0.9)',
     dark: '#FFFFFF',

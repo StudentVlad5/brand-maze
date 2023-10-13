@@ -2,6 +2,10 @@ import { styled } from "styled-components";
 import { NavListLink } from "../Sidebar.styled";
 
 export const MobileMenuBox = styled.div`
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   position: fixed;
   top: 0px;
   left: 0;
@@ -13,6 +17,7 @@ export const MobileMenuBox = styled.div`
   display: flex;
   flex-direction: column;
   background-color: ${(props) => props.theme.white};
+  color: ${(props) => props.theme.black};
 
   &.is-expanded {
     transform: translateX(0);
@@ -32,7 +37,11 @@ export const HeaderSvgMobile = styled.svg`
 `;
 
 export const MobileBox = styled.nav`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 20px;
+  height: 100%;
 `;
 
 export const NavListMobile = styled.nav`

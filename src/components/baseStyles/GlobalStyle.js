@@ -3,6 +3,7 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
   body {
+  position: relative;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -23,6 +24,13 @@ export const GlobalStyle = createGlobalStyle`
   main {
     width: 100%;
     min-height: calc(100vh - 50px);
+  }
+  #canvas_mouse{
+    position: fixed;
+    top:0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
   }
 
 //-----reset-----//

@@ -10,7 +10,7 @@ import { ModalWindow } from '../ModalWindow/ModalWindow'
 
 export const HeaderComp = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState('true');
   const [scrollPos, setScrollPos] = useState(window.scrollY);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ export const HeaderComp = () => {
       const currentScrollPos = window.scrollY;
       const isScrollingUp = currentScrollPos < scrollPos;
 
-      setVisible(isScrollingUp || currentScrollPos === 0);
+      (isScrollingUp || currentScrollPos === 0) ? setVisible('true'): setVisible('false');
       setScrollPos(currentScrollPos);
     };
 
@@ -34,7 +34,7 @@ export const HeaderComp = () => {
 
   return (
     <>
-    <Header isVisible={visible}>
+    <Header isvisible={visible}>
 
       <LogoBox href="/brand-maze" aria-label="logo company">
         <Logo>Brand maze</Logo>
