@@ -7,6 +7,9 @@ import Filmoteka_img from 'images/projects/filmoteka_project.webp';
 import Ice_cream_img from 'images/projects/ice_cream_project.webp';
 import Anastasia_img from 'images/projects/anastasya-studio.webp';
 import Salamandra_img from 'images/projects/salamandra.webp';
+import Finance_club_img from 'images/projects/finance_club.webp';
+import Granat_img from 'images/projects/granat.webp';
+import Homeforest_img from 'images/projects/homeforest.webp';
 import { Container } from 'components/baseStyles/CommonStyle.styled';
 // import { Button } from 'components/baseStyles/Button.styled';
 import { useEffect } from 'react';
@@ -70,6 +73,30 @@ export const Project = () => {
           )
           .focus();
         break;
+      case 'finance club project':
+        window
+          .open(
+            'https://finance-club-amber.vercel.app/',
+            '_blank'
+          )
+          .focus();
+        break;
+      case 'bar association project':
+        window
+          .open(
+            'https://lawyer-association-granat.vercel.app/',
+            '_blank'
+          )
+          .focus();
+        break;
+      case 'homeforest shop project':
+        window
+          .open(
+            'https://indoor-plants-alpha.vercel.app/addition/about_company',
+            '_blank'
+          )
+          .focus();
+        break;
       default:
         break;
     }
@@ -122,6 +149,25 @@ export const Project = () => {
       originalAlt: 'salamandra project',
       description: t('Сafe menu with administrative management'),
       title: 'Сafe menu with administrative management',
+    },
+    {
+      original: Finance_club_img,
+      thumbnail: Finance_club_img,
+      originalAlt: 'finance club project',
+      description: t('The platform for communication between the financial and banking community, the expert environment, regulators and society'),
+      title: 'Сafe menu with administrative management',
+    },
+    {
+      original: Granat_img,
+      thumbnail: Granat_img,
+      originalAlt: 'bar association project',
+      description: t('The website is a visiting card for the bar association'),
+    },
+    {
+      original: Homeforest_img,
+      thumbnail: Homeforest_img,
+      originalAlt: 'homeforest shop project',
+      description: t('A stylish online store of plants'),
     },
   ];
 
