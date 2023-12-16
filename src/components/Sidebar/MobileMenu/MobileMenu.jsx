@@ -97,14 +97,19 @@ export const MobileMenu = ({ isOpen, toggleMenu, setIsOpen }) => {
           <ContactListMobile>
             <ul>
               <li>
-                <ContactListLink href="tel:+38011111111">
-                  +38011111111
+                <ContactListLink href="tel:+380959309876">
+                  +38 095 930 98 76
+                </ContactListLink>
+              </li>
+              <li>
+                <ContactListLink href="tel:+4368110541148">
+                  +43 681 105 41 148
                 </ContactListLink>
               </li>
 
               <ContactListItem>
-                <ContactListLink href="mailto:contact@brand-maze.com">
-                  contact@brand-maze.com
+                <ContactListLink href="mailto:brandmaze.info@gmail.com">
+                brandmaze.info@gmail.com
                 </ContactListLink>
               </ContactListItem>
             </ul>

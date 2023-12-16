@@ -78,8 +78,8 @@ export const Sidebar = () => {
             </ContactListItemPhone>
 
             <ContactListItem>
-              <ContactListLink href="mailto:contact@brand-maze.com">
-                contact@brand-maze.com
+              <ContactListLink href="mailto:brandmaze.info@gmail.com">
+              brandmaze.info@gmail.com
               </ContactListLink>
             </ContactListItem>
           </ul>
