@@ -72,8 +72,8 @@ export const Sidebar = () => {
                 +38 095 930 98 76
               </ContactListLink>
 
-              <ContactListLink href="tel:+4368110541148">
-                +43 681 10541148
+              <ContactListLink href="tel:+4368181766579">
+                +43 681 817 665 79
               </ContactListLink>
             </ContactListItemPhone>
 

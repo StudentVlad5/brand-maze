@@ -102,8 +102,8 @@ export const MobileMenu = ({ isOpen, toggleMenu, setIsOpen }) => {
                 </ContactListLink>
               </li>
               <li>
-                <ContactListLink href="tel:+4368110541148">
-                  +43 681 105 41 148
+                <ContactListLink href="tel:+4368181766579">
+                  +43 681 817 665 79
                 </ContactListLink>
               </li>
 
